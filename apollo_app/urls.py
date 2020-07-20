@@ -5,6 +5,7 @@ from apollo_app import views
 
 urlpatterns = [
     path('index/',views.index),
+    path('login/', views.login),
 ]
 
 

@@ -8,6 +8,7 @@ def index(request):
 
 
 def login(request):
+    print("输出A安全等级的算法")
     return HttpResponse("login")
 
 def safe_b(request):

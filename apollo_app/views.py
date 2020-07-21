@@ -18,3 +18,6 @@ def safeA(request):
     return HttpResponse("实现了A级别的安全等级")
 
 
+def reg(request):
+    return HttpResponse("实现注册功能")
+

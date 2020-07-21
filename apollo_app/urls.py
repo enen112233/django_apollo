@@ -10,6 +10,7 @@ urlpatterns = [
     path('safe/',views.safeA),
     path('login/', views.login),
     path('safe_b/', views.safe_b),
+    path('reg/', views.reg),
 ]
 
 

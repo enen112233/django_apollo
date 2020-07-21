@@ -12,6 +12,7 @@ def login(request):
     return HttpResponse("login")
 
 def safe_b(request):
+    print("输出B安全等级算法")
     return HttpResponse("实现了安全等级为b的级别")
 
 def safeA(request):
